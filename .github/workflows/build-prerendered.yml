@@ -25,6 +25,11 @@ jobs:
       - name: Build (SSG prerender)
         run: npm run build
 
+      - name: Add GitHub Pages files (.nojekyll + CNAME)
+        run: |
+          touch dist/.nojekyll
+          echo "www.tuurbo-ecommerce.com" > dist/CNAME
+
       - name: Publish dist/ to prerendered branch
         run: |
           cd dist
