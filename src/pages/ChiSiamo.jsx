@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import teamImg from "@/assets/team.jpg";
 
 export default function ChiSiamo() {
   useEffect(() => { document.title = "Chi siamo — NutriForce"; }, []);
@@ -6,7 +7,7 @@ export default function ChiSiamo() {
     <div className="max-w-4xl mx-auto px-4 sm:px-6 py-16">
       <div className="text-xs uppercase tracking-wider text-nf-green mb-3">La nostra storia</div>
       <h1 className="font-display font-extrabold text-5xl mb-8 leading-tight">Nutrizione sportiva fatta sul serio, dal 2019</h1>
-      <img src="https://picsum.photos/seed/nutriforce-team/1200/600" className="w-full aspect-[2/1] object-cover mb-10" />
+      <img src={teamImg} className="w-full aspect-[2/1] object-cover mb-10" />
 
       <div className="prose max-w-none text-nf-ink/80 leading-relaxed space-y-5 text-lg">
         <p>NutriForce nasce a Torino nel 2019 dall'idea di tre amici accomunati dalla passione per lo sport e dalla frustrazione verso un mercato degli integratori dominato da claim esagerati, etichette poco chiare e prodotti formulati più per il marketing che per i risultati. Volevamo qualcosa di diverso: supplementi seri, formulazioni pulite, dosaggi onesti.</p>
@@ -29,7 +30,7 @@ export default function ChiSiamo() {
           { n: "Davide Conti", r: "Responsabile produzione" },
         ].map((m) => (
           <div key={m.n} className="border border-nf-line p-6 text-center">
-            <img src={`https://picsum.photos/seed/${m.n}/300/300`} className="w-24 h-24 rounded-full object-cover mx-auto mb-4" />
+            <img src={teamImg} className="w-24 h-24 rounded-full object-cover mx-auto mb-4" />
             <div className="font-display font-bold text-lg">{m.n}</div>
             <div className="text-sm text-nf-ink/60">{m.r}</div>
           </div>
