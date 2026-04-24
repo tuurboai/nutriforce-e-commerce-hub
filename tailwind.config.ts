@@ -13,7 +13,19 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        display: ['Syne', 'system-ui', 'sans-serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
       colors: {
+        nf: {
+          bg: '#FFFFFF',
+          surface: '#F8F8F6',
+          ink: '#111111',
+          green: '#16A34A',
+          red: '#DC2626',
+          line: '#E5E5E5',
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
