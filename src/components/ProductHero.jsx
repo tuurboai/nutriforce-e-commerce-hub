@@ -7,10 +7,10 @@ export default function ProductHero({ prodotto }) {
 
   useEffect(() => {
     const t = setTimeout(() => {
-      setImgSrc(`https://picsum.photos/seed/${prodotto.slug}/800/800`);
+      setImgSrc(prodotto.img);
     }, 1200);
     return () => clearTimeout(t);
-  }, [prodotto.slug]);
+  }, [prodotto.img]);
 
   return (
     <div className="grid md:grid-cols-2 gap-10 items-start">

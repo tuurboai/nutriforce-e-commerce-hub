@@ -9,7 +9,7 @@ export default function ProductCard({ prodotto }) {
             {prodotto.badge}
           </span>
         )}
-        <img src={`https://picsum.photos/seed/${prodotto.slug}/600/600`} />
+        <img src={prodotto.img} />
       </div>
       <div className="p-4">
         <div className="text-xs uppercase tracking-wider text-nf-ink/50 mb-1">{prodotto.categoria} · {prodotto.grammi}</div>

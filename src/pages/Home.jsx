@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import ProductCard from "@/components/ProductCard";
 import { prodotti } from "@/data/prodotti";
 import { articoli } from "@/data/blog";
+import heroImg from "@/assets/hero-nutriforce.jpg";
 
 export default function Home() {
   useEffect(() => { document.title = "NutriForce — Supplementi per chi si allena davvero"; }, []);
