@@ -17,7 +17,7 @@ export default function Carrello() {
           <div className="border border-nf-line divide-y divide-nf-line mb-8">
             {items.map((p, i) => (
               <div key={i} className="flex items-center gap-4 p-4">
-                <img src={`https://picsum.photos/seed/${p.slug}/120/120`} alt="" className="w-20 h-20 object-cover" />
+                <img src={p.img} alt="" className="w-20 h-20 object-cover" />
                 <div className="flex-1">
                   <div className="font-display font-bold">{p.nome}</div>
                   <div className="text-sm text-nf-ink/60">{p.grammi}</div>

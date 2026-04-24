@@ -1,42 +1,13 @@
+import blogProteine from "@/assets/blog-proteine.jpg";
+import blogCreatina from "@/assets/blog-creatina.jpg";
+import blogPreworkout from "@/assets/blog-preworkout.jpg";
+import blogWhey from "@/assets/blog-whey.jpg";
+import blogVegani from "@/assets/blog-vegani.jpg";
+
 export const articoli = [
-  {
-    slug: "quante-proteine-al-giorno",
-    titolo: "Quante proteine assumere al giorno per costruire muscolo?",
-    categoria: "Nutrizione",
-    data: "18 marzo 2025",
-    intro: "Il fabbisogno proteico dipende da peso, obiettivo e tipo di allenamento. Ecco i numeri reali.",
-    prodottoCorrelato: "whey-protein-cioccolato",
-  },
-  {
-    slug: "creatina-fa-male",
-    titolo: "La creatina fa male? Tutto quello che devi sapere",
-    categoria: "Integratori",
-    data: "5 marzo 2025",
-    intro: "Sfatiamo i miti più diffusi sulla creatina con dati scientifici aggiornati.",
-    prodottoCorrelato: "creatina-monoidrato",
-  },
-  {
-    slug: "pre-workout-quando-prenderlo",
-    titolo: "Pre-workout: quando prenderlo e come usarlo al meglio",
-    categoria: "Integratori",
-    data: "20 febbraio 2025",
-    intro: "Timing, dosaggio e cosa aspettarsi. Guida completa per chi inizia.",
-    prodottoCorrelato: "pre-workout-explosive",
-  },
-  {
-    slug: "differenza-whey-isolate-concentrate",
-    titolo: "Whey concentrate vs isolate: quale scegliere?",
-    categoria: "Proteine",
-    data: "8 febbraio 2025",
-    intro: "Due prodotti simili ma con differenze importanti. Ti aiutiamo a scegliere quello giusto per te.",
-    prodottoCorrelato: "whey-isolate-zero-zuccheri",
-  },
-  {
-    slug: "integratori-vegani-sport",
-    titolo: "Integratori per sportivi vegani: cosa serve davvero",
-    categoria: "Nutrizione",
-    data: "22 gennaio 2025",
-    intro: "Chi segue una dieta plant-based e si allena ha esigenze specifiche. Ecco come coprirle.",
-    prodottoCorrelato: "proteine-vegane-pisello",
-  },
+  { slug: "quante-proteine-al-giorno", titolo: "Quante proteine assumere al giorno per costruire muscolo?", categoria: "Nutrizione", data: "18 marzo 2025", intro: "Il fabbisogno proteico dipende da peso, obiettivo e tipo di allenamento. Ecco i numeri reali.", prodottoCorrelato: "whey-protein-cioccolato", img: blogProteine },
+  { slug: "creatina-fa-male", titolo: "La creatina fa male? Tutto quello che devi sapere", categoria: "Integratori", data: "5 marzo 2025", intro: "Sfatiamo i miti più diffusi sulla creatina con dati scientifici aggiornati.", prodottoCorrelato: "creatina-monoidrato", img: blogCreatina },
+  { slug: "pre-workout-quando-prenderlo", titolo: "Pre-workout: quando prenderlo e come usarlo al meglio", categoria: "Integratori", data: "20 febbraio 2025", intro: "Timing, dosaggio e cosa aspettarsi. Guida completa per chi inizia.", prodottoCorrelato: "pre-workout-explosive", img: blogPreworkout },
+  { slug: "differenza-whey-isolate-concentrate", titolo: "Whey concentrate vs isolate: quale scegliere?", categoria: "Proteine", data: "8 febbraio 2025", intro: "Due prodotti simili ma con differenze importanti. Ti aiutiamo a scegliere quello giusto per te.", prodottoCorrelato: "whey-isolate-zero-zuccheri", img: blogWhey },
+  { slug: "integratori-vegani-sport", titolo: "Integratori per sportivi vegani: cosa serve davvero", categoria: "Nutrizione", data: "22 gennaio 2025", intro: "Chi segue una dieta plant-based e si allena ha esigenze specifiche. Ecco come coprirle.", prodottoCorrelato: "proteine-vegane-pisello", img: blogVegani },
 ];

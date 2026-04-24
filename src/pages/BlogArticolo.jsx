@@ -44,7 +44,7 @@ export default function BlogArticolo() {
       <div className="text-xs uppercase tracking-wider text-nf-green mt-8 mb-3">{articolo.categoria} · {articolo.data}</div>
       <h1 className="font-display font-extrabold text-5xl mb-6 leading-tight">{articolo.titolo}</h1>
       <p className="text-xl text-nf-ink/70 mb-8 leading-relaxed">{articolo.intro}</p>
-      <img src={`https://picsum.photos/seed/${slug}/1200/600`} className="w-full aspect-[2/1] object-cover mb-10" />
+      <img src={articolo.img} className="w-full aspect-[2/1] object-cover mb-10" />
 
       <div className="space-y-8 text-lg text-nf-ink/80 leading-relaxed">
         <p>Quello che segue è un approfondimento basato sulla letteratura scientifica più recente e sulla nostra esperienza diretta come produttori di integratori sportivi. L'obiettivo è darti informazioni concrete e azionabili, senza sensazionalismi.</p>
@@ -57,7 +57,7 @@ export default function BlogArticolo() {
         <p className="border-l-4 border-nf-green pl-6 italic text-nf-ink/70 mt-10">In sintesi: l'approccio basato sui dati funziona meglio del marketing. Studia, sperimenta su te stesso con metodo e ricordati che gli integratori sono solo uno dei tasselli, non la base.</p>
         {prodottoLink && (
           <div className="bg-nf-surface p-8 mt-12 flex items-center gap-6">
-            <img src={`https://picsum.photos/seed/${prodottoLink.slug}/200/200`} alt="" className="w-24 h-24 object-cover" />
+            <img src={prodottoLink.img} alt="" className="w-24 h-24 object-cover" />
             <div className="flex-1">
               <div className="text-xs uppercase tracking-wider text-nf-green mb-1">Prodotto correlato</div>
               <div className="font-display font-bold text-xl mb-2">{prodottoLink.nome}</div>

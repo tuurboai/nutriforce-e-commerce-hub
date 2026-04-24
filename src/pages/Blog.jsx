@@ -14,7 +14,7 @@ export default function Blog() {
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {articoli.map((a) => (
           <Link key={a.slug} to={`/blog/${a.slug}`} className="group block border border-nf-line hover:border-nf-ink transition-colors">
-            <img src={`https://picsum.photos/seed/${a.slug}/600/400`} alt="" className="w-full aspect-[3/2] object-cover" />
+            <img src={a.img} alt="" className="w-full aspect-[3/2] object-cover" />
             <div className="p-6">
               <div className="text-xs uppercase tracking-wider text-nf-green mb-2">{a.categoria} · {a.data}</div>
               <h2 className="font-display font-bold text-xl mb-2 group-hover:text-nf-green transition-colors">{a.titolo}</h2>

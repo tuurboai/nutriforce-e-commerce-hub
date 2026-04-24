@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import ProductCard from "@/components/ProductCard";
 import { prodotti } from "@/data/prodotti";
 import { articoli } from "@/data/blog";
+import heroImg from "@/assets/hero-nutriforce.jpg";
 
 export default function Home() {
   useEffect(() => { document.title = "NutriForce — Supplementi per chi si allena davvero"; }, []);
@@ -35,7 +36,7 @@ export default function Home() {
             </div>
           </div>
           <div className="relative">
-            <img src="https://picsum.photos/seed/nutriforce-hero/900/900" alt="" className="w-full aspect-square object-cover" />
+            <img src={heroImg} alt="" className="w-full aspect-square object-cover" />
           </div>
         </div>
       </section>
@@ -109,7 +110,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-6">
             {ultimiArticoli.map((a) => (
               <Link key={a.slug} to={`/blog/${a.slug}`} className="group block bg-nf-bg border border-nf-line hover:border-nf-ink transition-colors">
-                <img src={`https://picsum.photos/seed/${a.slug}/600/400`} alt="" className="w-full aspect-[3/2] object-cover" />
+                <img src={a.img} alt="" className="w-full aspect-[3/2] object-cover" />
                 <div className="p-6">
                   <div className="text-xs uppercase tracking-wider text-nf-green mb-2">{a.categoria} · {a.data}</div>
                   <h3 className="font-display font-bold text-xl mb-2 group-hover:text-nf-green transition-colors">{a.titolo}</h3>
