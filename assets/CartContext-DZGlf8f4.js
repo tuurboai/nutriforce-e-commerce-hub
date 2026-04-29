@@ -1,0 +1,1 @@
+import{r as t,j as x}from"./app-boLpsfQR.js";const s=t.createContext(null);function i({children:o}){const[e,r]=t.useState([]),n=u=>r(c=>[...c,u]),a=e.length;return x.jsx(s.Provider,{value:{items:e,add:n,count:a},children:o})}const m=()=>t.useContext(s);export{i as C,m as u};

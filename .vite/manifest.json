@@ -1,0 +1,310 @@
+{
+  "_CartContext-DZGlf8f4.js": {
+    "file": "assets/CartContext-DZGlf8f4.js",
+    "name": "CartContext",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_LegalPage-uhKlla5F.js": {
+    "file": "assets/LegalPage-uhKlla5F.js",
+    "name": "LegalPage",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_ProductCard--NFY14Sm.js": {
+    "file": "assets/ProductCard--NFY14Sm.js",
+    "name": "ProductCard",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_client-C0lVYPT0.js": {
+    "file": "assets/client-C0lVYPT0.js",
+    "name": "client",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "index.html": {
+    "file": "assets/app-boLpsfQR.js",
+    "name": "app",
+    "src": "index.html",
+    "isEntry": true,
+    "dynamicImports": [
+      "_client-C0lVYPT0.js",
+      "_client-C0lVYPT0.js",
+      "src/AppShell.tsx",
+      "src/pages/Home.jsx",
+      "src/pages/Catalogo.jsx",
+      "src/pages/CatalogoCategoria.jsx",
+      "src/pages/Prodotto.jsx",
+      "src/pages/Carrello.jsx",
+      "src/pages/Checkout.jsx",
+      "src/pages/CheckoutConferma.jsx",
+      "src/pages/ChiSiamo.jsx",
+      "src/pages/Blog.jsx",
+      "src/pages/BlogArticolo.jsx",
+      "src/pages/Contatti.jsx",
+      "src/pages/Privacy.jsx",
+      "src/pages/Cookie.jsx",
+      "src/pages/Termini.jsx",
+      "src/pages/NotFound.tsx"
+    ],
+    "css": [
+      "assets/app-LSvi1I66.css"
+    ],
+    "assets": [
+      "assets/prod-whey-cioccolato-C6eU4s3P.jpg",
+      "assets/prod-whey-vaniglia-CISJqGbt.jpg",
+      "assets/prod-vegan-CPZA04yk.jpg",
+      "assets/prod-preworkout-Clovlvk3.jpg",
+      "assets/prod-creatina-D6nC2-7I.jpg",
+      "assets/prod-bcaa-C_AzJUia.jpg",
+      "assets/prod-omega3-D5B-R4MN.jpg",
+      "assets/prod-vitamind-DY-11qHE.jpg",
+      "assets/prod-magnesio-Cr5T7a0L.jpg",
+      "assets/prod-bundle-DDRi4gc1.jpg",
+      "assets/blog-proteine-DyhOZEEY.jpg",
+      "assets/blog-creatina-D6hYvxAj.jpg",
+      "assets/blog-preworkout-CgrpSu5_.jpg",
+      "assets/blog-whey-D81MCfpB.jpg",
+      "assets/blog-vegani-zJWrrvQF.jpg"
+    ]
+  },
+  "src/AppShell.tsx": {
+    "file": "assets/AppShell-CF960aRP.js",
+    "name": "AppShell",
+    "src": "src/AppShell.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_CartContext-DZGlf8f4.js"
+    ]
+  },
+  "src/assets/blog-creatina.jpg": {
+    "file": "assets/blog-creatina-D6hYvxAj.jpg",
+    "src": "src/assets/blog-creatina.jpg"
+  },
+  "src/assets/blog-preworkout.jpg": {
+    "file": "assets/blog-preworkout-CgrpSu5_.jpg",
+    "src": "src/assets/blog-preworkout.jpg"
+  },
+  "src/assets/blog-proteine.jpg": {
+    "file": "assets/blog-proteine-DyhOZEEY.jpg",
+    "src": "src/assets/blog-proteine.jpg"
+  },
+  "src/assets/blog-vegani.jpg": {
+    "file": "assets/blog-vegani-zJWrrvQF.jpg",
+    "src": "src/assets/blog-vegani.jpg"
+  },
+  "src/assets/blog-whey.jpg": {
+    "file": "assets/blog-whey-D81MCfpB.jpg",
+    "src": "src/assets/blog-whey.jpg"
+  },
+  "src/assets/prod-bcaa.jpg": {
+    "file": "assets/prod-bcaa-C_AzJUia.jpg",
+    "src": "src/assets/prod-bcaa.jpg"
+  },
+  "src/assets/prod-bundle.jpg": {
+    "file": "assets/prod-bundle-DDRi4gc1.jpg",
+    "src": "src/assets/prod-bundle.jpg"
+  },
+  "src/assets/prod-creatina.jpg": {
+    "file": "assets/prod-creatina-D6nC2-7I.jpg",
+    "src": "src/assets/prod-creatina.jpg"
+  },
+  "src/assets/prod-magnesio.jpg": {
+    "file": "assets/prod-magnesio-Cr5T7a0L.jpg",
+    "src": "src/assets/prod-magnesio.jpg"
+  },
+  "src/assets/prod-omega3.jpg": {
+    "file": "assets/prod-omega3-D5B-R4MN.jpg",
+    "src": "src/assets/prod-omega3.jpg"
+  },
+  "src/assets/prod-preworkout.jpg": {
+    "file": "assets/prod-preworkout-Clovlvk3.jpg",
+    "src": "src/assets/prod-preworkout.jpg"
+  },
+  "src/assets/prod-vegan.jpg": {
+    "file": "assets/prod-vegan-CPZA04yk.jpg",
+    "src": "src/assets/prod-vegan.jpg"
+  },
+  "src/assets/prod-vitamind.jpg": {
+    "file": "assets/prod-vitamind-DY-11qHE.jpg",
+    "src": "src/assets/prod-vitamind.jpg"
+  },
+  "src/assets/prod-whey-cioccolato.jpg": {
+    "file": "assets/prod-whey-cioccolato-C6eU4s3P.jpg",
+    "src": "src/assets/prod-whey-cioccolato.jpg"
+  },
+  "src/assets/prod-whey-vaniglia.jpg": {
+    "file": "assets/prod-whey-vaniglia-CISJqGbt.jpg",
+    "src": "src/assets/prod-whey-vaniglia.jpg"
+  },
+  "src/assets/team.jpg": {
+    "file": "assets/team-CK4TASei.jpg",
+    "src": "src/assets/team.jpg"
+  },
+  "src/components/HeroSlider.jsx": {
+    "file": "assets/HeroSlider-UaJbmjit.js",
+    "name": "HeroSlider",
+    "src": "src/components/HeroSlider.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/pages/Blog.jsx": {
+    "file": "assets/Blog-Bgr5N0Ph.js",
+    "name": "Blog",
+    "src": "src/pages/Blog.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/pages/BlogArticolo.jsx": {
+    "file": "assets/BlogArticolo-DAfNbuVK.js",
+    "name": "BlogArticolo",
+    "src": "src/pages/BlogArticolo.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/pages/Carrello.jsx": {
+    "file": "assets/Carrello-XFMRdIMM.js",
+    "name": "Carrello",
+    "src": "src/pages/Carrello.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_CartContext-DZGlf8f4.js"
+    ]
+  },
+  "src/pages/Catalogo.jsx": {
+    "file": "assets/Catalogo-CbyUApuK.js",
+    "name": "Catalogo",
+    "src": "src/pages/Catalogo.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_ProductCard--NFY14Sm.js"
+    ]
+  },
+  "src/pages/CatalogoCategoria.jsx": {
+    "file": "assets/CatalogoCategoria-CVajxvCg.js",
+    "name": "CatalogoCategoria",
+    "src": "src/pages/CatalogoCategoria.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_ProductCard--NFY14Sm.js"
+    ]
+  },
+  "src/pages/Checkout.jsx": {
+    "file": "assets/Checkout-BTwTXF71.js",
+    "name": "Checkout",
+    "src": "src/pages/Checkout.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/pages/CheckoutConferma.jsx": {
+    "file": "assets/CheckoutConferma-QX61Jm2C.js",
+    "name": "CheckoutConferma",
+    "src": "src/pages/CheckoutConferma.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/pages/ChiSiamo.jsx": {
+    "file": "assets/ChiSiamo-DsdGsjT0.js",
+    "name": "ChiSiamo",
+    "src": "src/pages/ChiSiamo.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ],
+    "assets": [
+      "assets/team-CK4TASei.jpg"
+    ]
+  },
+  "src/pages/Contatti.jsx": {
+    "file": "assets/Contatti-ClPXj0z3.js",
+    "name": "Contatti",
+    "src": "src/pages/Contatti.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/pages/Cookie.jsx": {
+    "file": "assets/Cookie-C97VXVW0.js",
+    "name": "Cookie",
+    "src": "src/pages/Cookie.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_LegalPage-uhKlla5F.js"
+    ]
+  },
+  "src/pages/Home.jsx": {
+    "file": "assets/Home-B3T83gv-.js",
+    "name": "Home",
+    "src": "src/pages/Home.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_ProductCard--NFY14Sm.js"
+    ],
+    "dynamicImports": [
+      "src/components/HeroSlider.jsx"
+    ]
+  },
+  "src/pages/NotFound.tsx": {
+    "file": "assets/NotFound-k64W8IKk.js",
+    "name": "NotFound",
+    "src": "src/pages/NotFound.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/pages/Privacy.jsx": {
+    "file": "assets/Privacy-Dn4nGbnB.js",
+    "name": "Privacy",
+    "src": "src/pages/Privacy.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_LegalPage-uhKlla5F.js"
+    ]
+  },
+  "src/pages/Prodotto.jsx": {
+    "file": "assets/Prodotto-kfgDei3W.js",
+    "name": "Prodotto",
+    "src": "src/pages/Prodotto.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_CartContext-DZGlf8f4.js",
+      "_ProductCard--NFY14Sm.js"
+    ]
+  },
+  "src/pages/Termini.jsx": {
+    "file": "assets/Termini-CmnHLpbg.js",
+    "name": "Termini",
+    "src": "src/pages/Termini.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_LegalPage-uhKlla5F.js"
+    ]
+  }
+}
