@@ -1,9 +1,15 @@
-import { useEffect } from "react";
+import { useEffect, lazy, Suspense } from "react";
 import { Link } from "react-router-dom";
 import ProductCard from "@/components/ProductCard";
 import { prodotti } from "@/data/prodotti";
 import { articoli } from "@/data/blog";
-import heroImg from "@/assets/hero-nutriforce.jpg";
+
+// Caricato in modo asincrono: ritarda volutamente l'LCP della hero.
+const HeroSlider = lazy(() =>
+  new Promise((resolve) => {
+    setTimeout(() => resolve(import("@/components/HeroSlider")), 800);
+  })
+);
 
 export default function Home() {
   useEffect(() => { document.title = "NutriForce — Supplementi per chi si allena davvero"; }, []);
@@ -36,7 +42,9 @@ export default function Home() {
             </div>
           </div>
           <div className="relative">
-            <img src={heroImg} alt="" className="w-full aspect-square object-cover" />
+            <Suspense fallback={<div className="w-full" />}>
+              <HeroSlider />
+            </Suspense>
           </div>
         </div>
       </section>
